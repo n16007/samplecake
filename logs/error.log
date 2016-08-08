@@ -29,3 +29,50 @@ Stack Trace:
 2016-08-01 02:00:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-08-01 02:00:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-08-08 00:50:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:16:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:16:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:16:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:24:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:24:18 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{' in [/var/www/html/samplecake/src/Controller/HeloController.php, line 9]
+Request URL: /samplecake/Helo
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 02:24:19 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{'
+Request URL: /samplecake/Helo
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/s...', 9)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 02:27:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:27:56 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{' in [/var/www/html/samplecake/src/Controller/HeloController.php, line 9]
+Request URL: /samplecake/Helo
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-08 02:27:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{'
+Request URL: /samplecake/Helo
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/s...', 9)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-08 02:28:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:28:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:28:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-08 02:30:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
