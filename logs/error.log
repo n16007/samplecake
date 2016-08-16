@@ -108,3 +108,236 @@ Stack Trace:
 
 
 2016-08-15 00:38:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 01:40:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 01:49:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 01:49:42 Error: [Cake\Controller\Exception\MissingActionException] Action HeloController::add() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HeloController',
+  'action' => 'add',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HeloController))
+#2 /var/www/html/samplecake11/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-08-15 01:49:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 01:49:53 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/var/www/html/samplecake11/src/Controller/HeloController.php, line 16]
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-15 01:49:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/s...', 16)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-15 01:50:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 01:50:11 Error: [Cake\View\Exception\MissingTemplateException] Template file "Helo/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Helo/add.ctp',
+)
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HeloController))
+#4 /var/www/html/samplecake11/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-08-15 01:50:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 01:50:12 Error: [Cake\View\Exception\MissingTemplateException] Template file "Helo/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Helo/add.ctp',
+)
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HeloController))
+#4 /var/www/html/samplecake11/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-08-15 02:05:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 02:05:03 Error: [Cake\View\Exception\MissingTemplateException] Template file "Helo/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Helo/add.ctp',
+)
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HeloController))
+#4 /var/www/html/samplecake11/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-08-15 02:15:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 02:15:15 Error: [Cake\View\Exception\MissingTemplateException] Template file "Helo/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Helo/add.ctp',
+)
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HeloController))
+#4 /var/www/html/samplecake11/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-08-15 02:21:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 02:21:11 Warning: Warning (2): mkdir(): Permission denied in [/var/www/html/samplecake11/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 421]
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 421
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 154
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 190
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 80
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 137
+__ - CORE/src/I18n/functions.php, line 33
+Cake\View\Helper\FormHelper::label() - CORE/src/View/Helper/FormHelper.php, line 817
+Cake\View\Helper\FormHelper::_inputLabel() - CORE/src/View/Helper/FormHelper.php, line 1379
+Cake\View\Helper\FormHelper::_getLabel() - CORE/src/View/Helper/FormHelper.php, line 1326
+Cake\View\Helper\FormHelper::input() - CORE/src/View/Helper/FormHelper.php, line 1055
+include - APP/Template/Helo/add.ctp, line 6
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-15 02:21:11 Warning: Warning (512): /var/www/html/samplecake11/tmp/cache/persistent/ is not writable in [/var/www/html/samplecake11/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 429]
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 429
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 93
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 154
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 190
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 80
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 137
+__ - CORE/src/I18n/functions.php, line 33
+Cake\View\Helper\FormHelper::label() - CORE/src/View/Helper/FormHelper.php, line 817
+Cake\View\Helper\FormHelper::_inputLabel() - CORE/src/View/Helper/FormHelper.php, line 1379
+Cake\View\Helper\FormHelper::_getLabel() - CORE/src/View/Helper/FormHelper.php, line 1326
+Cake\View\Helper\FormHelper::input() - CORE/src/View/Helper/FormHelper.php, line 1055
+include - APP/Template/Helo/add.ctp, line 6
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 995
+Cake\View\View::_render() - CORE/src/View/View.php, line 955
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-08-15 02:21:12 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Request URL: /samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Cache/Cache.php(154): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Cache/Cache.php(190): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/I18n/I18n.php(80): Cake\Cache\Cache::engine('_cake_core_')
+#4 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/I18n/I18n.php(137): Cake\I18n\I18n::translators()
+#5 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/I18n/functions.php(33): Cake\I18n\I18n::translator()
+#6 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(817): __('Name')
+#7 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1379): Cake\View\Helper\FormHelper->label('name', NULL, Array)
+#8 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1326): Cake\View\Helper\FormHelper->_inputLabel('name', NULL, Array)
+#9 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1055): Cake\View\Helper\FormHelper->_getLabel('name', Array)
+#10 /var/www/html/samplecake11/src/Template/Helo/add.ctp(6): Cake\View\Helper\FormHelper->input('name')
+#11 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(995): include('/var/www/html/s...')
+#12 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/var/www/html/s...', Array)
+#13 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/var/www/html/s...')
+#14 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#15 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#16 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HeloController))
+#17 /var/www/html/samplecake11/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2016-08-15 02:28:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 02:30:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 03:10:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 03:10:22 Error: Fatal Error (4): syntax error, unexpected ':' in [/var/www/html/samplecake11/src/Controller/HeloController.php, line 12]
+Request URL: /samplecake11/Helo/add
+Referer URL: http://localhost:8080/samplecake11/Helo/add
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-15 03:10:22 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ':'
+Request URL: /samplecake11/Helo/add
+Referer URL: http://localhost:8080/samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/s...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-08-15 03:10:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-08-15 03:10:30 Error: Fatal Error (4): syntax error, unexpected ':' in [/var/www/html/samplecake11/src/Controller/HeloController.php, line 12]
+Request URL: /samplecake11/Helo/add
+Referer URL: http://localhost:8080/samplecake11/Helo/add
+Client IP: 10.0.2.2
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-08-15 03:10:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ':'
+Request URL: /samplecake11/Helo/add
+Referer URL: http://localhost:8080/samplecake11/Helo/add
+Client IP: 10.0.2.2
+Stack Trace:
+#0 /var/www/html/samplecake11/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/var/www/html/s...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
